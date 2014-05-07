@@ -34,7 +34,9 @@ $ mkdir myproject && cd myproject
 $ mkvrirtualenv myproject
 $ pip install django
 $ django-admin.py startproject myproject --template=https://github.com/Keats/django-drf-template/archive/master.zip
-$ pip install -r myproject/requirements/local.txt
+$ cd myproject
+$ pip install -r requirements/local.txt
+$ python myproject/manage.py migrate
 ```
 
 And you should be almost good to go. 
