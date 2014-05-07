@@ -1,0 +1,24 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Editor temp files:
+*.swp
+*~
+
+# Sphinx docs:
+_build
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+*.log
+
+__pycache__
+
+# Jetbrains IDEs
+.idea/
+*.iml

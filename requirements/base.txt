@@ -1,0 +1,5 @@
+https://www.djangoproject.com/download/1.7b1/tarball/
+djangorestframework==2.3.13
+Markdown==2.4
+django-model-utils==2.0.3
+django-cors-headers==0.12
