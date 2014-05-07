@@ -21,6 +21,12 @@ There are also goodies on dev and test environments:
 - [factory-boy](https://factoryboy.readthedocs.org/en/latest/): my library of choice to create objects in tests, I go more into details on my [blog](http://vincent.is/using-factory-boy-or-model-mommy/)
 
 ## Install
+You will need Postgres installed and the following ones (for ubuntu/debian, for others systems look in your package managers).
+
+```bash
+$ sudo apt-get install libpq-dev python-dev
+```
+
 Create your virtualenv (examples will use virtualenvwrapper), I will use the name myproject but use your own name.
 
 ```bash
