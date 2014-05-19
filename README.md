@@ -1,4 +1,5 @@
 # django-drf-template
+[![Requirements Status](https://requires.io/github/Keats/django-drf-template/requirements.png?branch=master)](https://requires.io/github/Keats/django-drf-template/requirements/?branch=master)
 
 Project template for Django 1.7 + Django REST framework containing things I use and find useful.  
 Part of it is based on [Two Scoops of Django template](https://github.com/twoscoops/django-twoscoops-project).  
