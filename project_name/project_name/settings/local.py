@@ -1,4 +1,4 @@
-"""Development settings and globals."""
+# flake8: noqa
 
 from .base import *
 

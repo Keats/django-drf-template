@@ -19,6 +19,7 @@ There are also goodies on dev and test environments:
 - [django-extensions](https://github.com/django-extensions/django-extensions): adds some useful management commands
 - [coverage](http://nedbatchelder.com/code/coverage/): measures code coverage
 - [factory-boy](https://factoryboy.readthedocs.org/en/latest/): my library of choice to create objects in tests, I go more into details on my [blog](http://vincent.is/using-factory-boy-or-model-mommy/)
+- [flake8](http://flake8.readthedocs.org/): for code quality
 
 ## Install
 You will need Postgres installed and the following ones (for ubuntu/debian, for others systems look in your package managers).
@@ -39,5 +40,14 @@ $ pip install -r requirements/local.txt
 $ python myproject/manage.py migrate
 ```
 
-And you should be almost good to go. 
+If you want, you can also add a pre-commit flake8 hook to ensure that commit respects it.
+
+```bash
+$ flake8 --install-hook
+```
+
+By default it will not stop commits because of warning, a quick look at .git/hooks/pre-commit shows that putting an environment variable of FLAKE8_STRICT will stop them.  
+
+
+And with all that, you should be almost good to go. 
 There are a few hardcoded temporary settings that you will want to replace, look for the string 'Ann Onymous' and you should find them.  

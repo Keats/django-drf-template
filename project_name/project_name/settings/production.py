@@ -1,4 +1,4 @@
-"""Production settings and globals."""
+# flake8: noqa
 
 from __future__ import absolute_import
 

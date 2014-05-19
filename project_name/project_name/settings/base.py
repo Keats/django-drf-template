@@ -1,5 +1,4 @@
-"""Common settings and globals."""
-
+# flake8: noqa
 
 from os.path import basename, dirname, join, normpath
 from sys import path
