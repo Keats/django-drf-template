@@ -2,7 +2,7 @@
 
 from .base import *
 
-########## IN-MEMORY TEST DATABASE
+# In memory database for tests
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
@@ -14,7 +14,7 @@ DATABASES = {
     },
 }
 
-######### FAST HASHING FOR PASSWORDS
+# Fast password hashing
 PASSWORD_HASHERS = (
     'django.contrib.auth.hashers.UnsaltedMD5PasswordHasher',
 )
