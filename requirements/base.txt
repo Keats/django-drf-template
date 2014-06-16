@@ -1,6 +1,6 @@
 https://www.djangoproject.com/download/1.7.b4/tarball/
-djangorestframework==2.3.13
-Markdown==2.4
+djangorestframework==2.3.14
+Markdown==2.4.1
 django-model-utils==2.0.3
 django-cors-headers==0.12
 bcrypt==1.0.2
