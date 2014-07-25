@@ -26,7 +26,7 @@ There are also goodies on dev and test environments:
 You will need Postgres installed and the following ones (for ubuntu/debian, for others systems look in your package managers).
 
 ```bash
-$ sudo apt-get install libpq-dev python-dev
+$ sudo apt-get install libpq-dev python-dev libffi-dev
 ```
 
 Create your virtualenv (examples will use virtualenvwrapper), I will use the name myproject but use your own name.
