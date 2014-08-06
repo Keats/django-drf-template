@@ -21,6 +21,7 @@ There are also goodies on dev and test environments:
 - [coverage](http://nedbatchelder.com/code/coverage/): measures code coverage
 - [factory-boy](https://factoryboy.readthedocs.org/en/latest/): my library of choice to create objects in tests, I go more into details on my [blog](http://vincent.is/using-factory-boy-or-model-mommy/)
 - [flake8](http://flake8.readthedocs.org/): for code quality
+- [mkdocs](http://www.mkdocs.org/): for documentation
 
 ## Install
 You will need Postgres installed and the following ones (for ubuntu/debian, for others systems look in your package managers).
