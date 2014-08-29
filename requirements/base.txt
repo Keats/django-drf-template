@@ -1,5 +1,5 @@
 https://www.djangoproject.com/download/1.7c2/tarball/
-djangorestframework==2.3.14
+djangorestframework==2.4.0
 Markdown==2.4.1
 django-model-utils==2.2
 django-cors-headers==0.13
