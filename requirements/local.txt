@@ -4,5 +4,6 @@
 django-debug-toolbar==1.2.1
 ipdb==0.8
 django-extensions==1.3.11
-flake8==2.2.2
-mkdocs==0.9
+flake8==2.2.3
+# version on pypi does not support python3
+git+https://github.com/tomchristie/mkdocs@80c9b2842c8665a1ace189cc6991b97c996703d6
