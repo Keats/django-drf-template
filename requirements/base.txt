@@ -1,5 +1,5 @@
 django==1.7.1
-djangorestframework==2.4.3
+djangorestframework==2.4.4
 Markdown==2.5.1
 django-model-utils==2.2
 django-cors-headers==0.13
