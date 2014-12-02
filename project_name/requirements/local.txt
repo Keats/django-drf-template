@@ -3,7 +3,7 @@
 
 django-debug-toolbar==1.2.2
 ipdb==0.8
-django-extensions==1.4.6
+django-extensions==1.4.8
 flake8==2.2.5
 # No version pinning for mkdocs, get the latest
 mkdocs
