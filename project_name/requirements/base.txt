@@ -1,9 +1,7 @@
-django==1.7.1
-djangorestframework>=3.0.0
-# Match mkdocs requirements for markdown
-Markdown>=2.3.1,<2.5
+django==1.8.1
+Markdown==2.6.2
 django-model-utils==2.2
 django-cors-headers==1.0.0
-bcrypt==1.1.0
-psycopg2==2.5.4
-pytz==2014.10
+bcrypt==1.1.1
+psycopg2==2.6
+pytz==2015.02
