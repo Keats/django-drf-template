@@ -1,8 +1,8 @@
-django==1.8.1
-djangorestframework==3.1.1
+django==1.8.4
+djangorestframework==3.2.3
 Markdown==2.6.2
-django-model-utils==2.2
-django-cors-headers==1.0.0
-bcrypt==1.1.1
-psycopg2==2.6
-pytz==2015.02
+django-model-utils==2.3.1
+django-cors-headers==1.1.0
+bcrypt==2.0.0
+psycopg2==2.6.1
+pytz==2015.04
